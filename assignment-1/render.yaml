@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: prog2005-rest-api
+    env: go
+    plan: free
+    rootDir: assignment-1
+    buildCommand: go build -o app
+    startCommand: ./app
